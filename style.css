@@ -1,0 +1,33 @@
+.contenedor {
+
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 2px solid black;
+}
+
+h1 {
+    background: white;
+}
+
+body {
+    background-image: url(Images/fondo_patas.jpg);
+}
+
+h3 {
+    padding: 50px;
+   margin: 50px;
+    color: black;
+    background: white;
+}
+
+form {
+
+    background: white;
+    width: 45%;
+    padding: 10px;
+    margin: 0 auto;
+    color: black;
+
+}

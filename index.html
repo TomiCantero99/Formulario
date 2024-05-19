@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="contenedor">
+
+    <img src="Images/images.png" alt="Foto_patitas_felices">
+
+    <h1> Adopcíon Patitas Felices</h1>
+
+    </div>
+
+    <h3>
+        Bienvenidos a "Adopcíon Patitas Felices" somos una organizacíon conformada por un grupo de personas que destinan parte de su
+        tiempo a ayudar animales en situacion de abandono a encontrar una familia.
+        Este es un formulario que debe llenar con sus datos personales e informacion para que pueda adoptar.
+    </h3>
+
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <form action="https://formsubmit.co/tommi.cantero99@gmail.com" method="POST">
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="70" required>
+
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" maxlength="70" required>
+
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="fecha_de_nacimiento" id="fecha_de_nacimiento" required>
+
+        <label for="Edad">Edad</label>
+        <input type="number" name="edad" id="edad" placeholder="Edad" required>
+
+        <label for="localidad">Localidad</label>
+        <input type="text" name="localidad" id="localidad" placeholder="Localidad" required>
+
+        <label for="pregunta">Usted cuenta con otros animales en su hogar?</label>
+        
+        <label for="pregunta_1">Si</label>
+        <input type="radio" id="si" name="pregunta" value="si" required/>
+        <label for="pregunta_2">no</label>
+        <input type="radio" id="no" name="pregunta" value="no" required />
+
+        <h4>si usted en la opcíon de arriba puso que "si" especifiqué</h4>
+
+        <label for="Tipo">Tipo de mascota</label>
+        <input type="text" name="tipo" id="tipo" placeholder=" perro,gato,hamster,etc" required>
+
+
+
+        <label for="email">Correo electronico</label>
+        <input type="email" name="email" id="email" placeholder="Correo electronico" maxlength="50" required> 
+        
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="contraseña" placeholder="contraseña" required>
+
+        <label for="telefono">Numero de telefono</label>
+        <input type="text" name="telefono" id="telefono" placeholder="Numero de telefono" required>
+
+        <label for="checkbox">Bases y Condiciones</label>
+
+        <input type="checkbox" id="bases_y_condiciones" name="bases_y_condiciones" value="acepta" required>
+        
+        <br>  /<br />
+        <input type="submit" value="Enviar" required>
+
+    </form>
+    
+</body>
+</html>
